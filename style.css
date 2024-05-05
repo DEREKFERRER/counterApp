@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+body{
+    font-family: "Lalezar", system-ui;
+   
+}
+h1 {
+    text-align: center;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+}
+.counter {
+    display: flex; 
+    justify-content:space-evenly; 
+    align-items: center;  
+    height: 75vh;
+}
+@media screen and (max-width: 280px) {
+    .counter{
+        display: flex;
+        justify-content: space-between;
+    }
+}
