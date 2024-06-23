@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 body{
     font-family: "Lalezar", system-ui;
-   
 }
 h1 {
     text-align: center;
@@ -11,6 +10,10 @@ h1 {
     justify-content: center;
     text-decoration: none;
     color:black;
+}
+.reset-icon {
+    font-size:50px;
+    color:black
 }
 .counter {
     display: flex; 
